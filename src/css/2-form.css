@@ -6,8 +6,7 @@ body {
 }
 
 .container {
-  max-width: 500px;
-  width: 100%;
+  max-width: 600px;
   margin: 0 auto;
   padding: 20px;
   background-color: #fff;
@@ -96,5 +95,37 @@ body {
   .feedback-form textarea,
   .feedback-form button {
     font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 85%;
+  }
+
+  .main-title {
+    font-size: 26px;
+  }
+
+  .feedback-form input,
+  .feedback-form textarea,
+  .feedback-form button {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 70%;
+  }
+
+  .main-title {
+    font-size: 32px;
+  }
+
+  .feedback-form input,
+  .feedback-form textarea,
+  .feedback-form button {
+    font-size: 18px;
   }
 }
