@@ -82,7 +82,7 @@ body {
   background-color: #6c8cff;
 }
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
   .container {
     padding: 15px;
     width: 90%;
@@ -129,4 +129,4 @@ body {
   .feedback-form button {
     font-size: 18px;
   }
-}
+} */
