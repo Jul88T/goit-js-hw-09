@@ -9,11 +9,29 @@ body {
   background-color: #f0f0f0;
 }
 
+.main-title {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #4e75ff;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.back-link:hover {
+  color: #6c8cff;
+}
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
-  padding: 20px;
+  gap: 10px;
+  padding: 10px;
   justify-content: center;
 }
 
